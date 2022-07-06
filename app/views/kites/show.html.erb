@@ -1,0 +1,4 @@
+<h2><%= @kite.name %></h2>
+<h3><%= @kite.brand %></h3>
+<h3><%= @kite.size %></h3>
+<%= link_to "Delete", kite_path(@kite), method: :delete, data: { confirm: "Do you want to delete your kite" } %>

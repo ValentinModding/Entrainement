@@ -1,7 +1,11 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+puts "Création des kites ..."
+
+Kite.create(name: "Rebel SLS", brand: "Duotone", size: 12)
+Kite.create(name: "Rebel SLS", brand: "Duotone", size: 11)
+Kite.create(name: "Rebel SLS", brand: "Duotone", size: 10)
+Kite.create(name: "Rebel SLS", brand: "Duotone", size: 9)
+Kite.create(name: "Rebel SLS", brand: "Duotone", size: 8)
+Kite.create(name: "Rebel SLS", brand: "Duotone", size: 7)
+Kite.create(name: "Rebel SLS", brand: "Duotone", size: 6)
+
+puts "Création des kites achevée avec succès !"
