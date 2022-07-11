@@ -1,0 +1,10 @@
+<div class="kite-card">
+  <div class="main">
+    <div class="infos">
+      <h2><%= kite.name %></h2>
+      <h3><%= kite.size %>m2</h3>
+    </div>
+    <p><%= kite.description[0..160] %></p>
+  <%= link_to "Show", kite_path(kite), id: "show" %>
+  </div>
+</div>

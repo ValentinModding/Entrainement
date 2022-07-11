@@ -1,12 +1,21 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
-}
+.navbar {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 2px black solid;
+  margin-bottom: 20px;
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+  .logo {
+    font-family: 'Duotone-Regular', Helvetica, Arial, sans-serif;
+  }
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    text-transform: uppercase;
+    list-style: none;
+    font-weight: 600;
+  }
 }

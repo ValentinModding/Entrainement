@@ -1,0 +1,7 @@
+<%= render "shared/navbar" %>
+
+<div class="kites-container">
+  <% @kites.each do |kite| %>
+    <%= render 'shared/kite_card', kite: kite %>
+  <% end %>
+</div>
