@@ -1,0 +1,9 @@
+<h1>Add a kite</h1>
+<%= simple_form_for @kite do |f| %>
+  <%= f.input :name %>
+  <%  %>
+  <%= f.input :brand, collection: @brands %>
+  <%= f.input :size, collection: @permit_size %>
+  <%= f.input :description, as: :text %>
+  <%= f.button :submit %>
+<% end %>
